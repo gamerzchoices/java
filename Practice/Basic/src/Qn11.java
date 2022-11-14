@@ -6,11 +6,11 @@ public class Qn11 {
         String pin = "1234";
 
         // 1st WAY
-        int newpin1 = Integer.parseInt(pin);
-        System.out.println(newpin1);
+        int firstPin = Integer.parseInt(pin);
+        System.out.println(firstPin);
 
         // 2nd WAY
-        int newpin2 = Integer.valueOf(pin);
-        System.out.println(newpin2);
+        int secondPin = Integer.valueOf(pin);
+        System.out.println(secondPin);
     }
 }

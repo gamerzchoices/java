@@ -1,4 +1,4 @@
-/* JAVA - Java is high-level, object-oriented, general-purpose programming language
+/* JAVA - Java is high-level, object-oriented, general-purpose programming language. Inventor of JAVA is James Gosling. 
 
 Features Of Java:
 Compatible with all platforms i.e. Windows , Mac, Linux, Android,etc.
@@ -17,7 +17,7 @@ public class Intro {
         // print KEEPS THE CURSOR IN SAME LINE
 
         System.out.print("Hello World!");
-        System.out.println("This is first program in JAVA by Prabesh");
+        System.out.println("This is first program in JAVA");
 
     }
 }

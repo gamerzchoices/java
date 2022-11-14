@@ -5,8 +5,6 @@ import java.util.HashSet;
 Unsorted array = {1,3,4,5,1,2,3,4,7,8,3}
 
 */
-import java.util.HashSet;;
-
 public class QnSelf3 {
     public static void main(String[] args) {
 

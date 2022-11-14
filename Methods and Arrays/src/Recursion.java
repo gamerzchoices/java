@@ -1,19 +1,19 @@
-/* RECURSION -  when method calls itself is called recursion */
+/* RECURSION -  when method calls itself inside its body */
 
 // WAP TO FIND FACTORIAL
 public class Recursion {
 
     public static void main(String[] args) {
-        int fact = factorial(5);
-        System.out.println(fact);
+        int temp = fact(5);
+        System.out.println("Factorial is " + temp);
 
     }
 
-    public static int factorial(int num) {
-        if (num > 0) {
-            return num * factorial(num - 1);
-        } else {
+    public static int fact(int num) {
+        if (num == 0 || num == 1) {
             return 1;
+        } else {
+            return num * fact(num - 1);
         }
     }
 }

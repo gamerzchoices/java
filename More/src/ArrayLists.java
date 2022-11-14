@@ -1,14 +1,15 @@
 /* ARRAYLIST-adding or removing items anytime
 
 
-Methods	                                                    Description
-names.get(0);	                                            Get item at index 0.
-names.set(0);	                                            Set item at index 0.
-names.remove(0);                                            Removes item at index 0.
-names.clear();	                                            Clear all items of array.
-names.size();	                                            To get size of an array.
-Collections.sort(names);                                    Sort ascending   
-Collections.sort(names, Collections.reverseOrder());        Sort decending
+Methods	                                Description
+names.get(0);	                        Get item at index 0.
+names.set(0);	                        Set item at index 0.
+names.remove(0);                        Removes item at index 0.
+names.clear();	                        Clear all items of array.
+names.size();	                        To get size of an array.
+Collections.sort(names);                Sort ascending   
+Collections.sort(names, Collections.    Sort decending
+reverseOrder());                        
  */
 
 import java.util.ArrayList;
@@ -29,7 +30,7 @@ public class ArrayLists {
         System.out.println(list);
 
         // Removing elements
-        list.remove("Hari");
+        list.remove("Sarita");
         System.out.println(list);
 
         // Finding element

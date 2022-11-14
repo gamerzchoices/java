@@ -1,5 +1,6 @@
-/* ARRAYS
+/* ARRAYS - Linear data structure where similar kinds of datas are stored.
 
+Syntax:
 datatype[] arrayName
 
  */

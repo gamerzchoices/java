@@ -1,7 +1,7 @@
 
 /* ENCAPSULATION - hide data from users
 
-We use getter and setter
+We use private keyword and create getter and setter methods
 
  */
 

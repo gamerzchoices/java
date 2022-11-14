@@ -1,6 +1,6 @@
 public class ParameterAndNoReturnType {
     public static void main(String[] args) {
-        birthYear(20);
+        birthYear(20); // Also called argument
     }
 
     public static void birthYear(int age) {

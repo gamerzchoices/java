@@ -1,5 +1,9 @@
 
-/* EXCEPTION HANDLING - If users enters wrong value but we dont want program to terminate
+/* 
+
+EXCEPTION - An exception (or exceptional event) is a problem that arises during the execution of a program. 
+
+EXCEPTION HANDLING - If users enters wrong value but we dont want program to terminate
 
 try{
     statements;

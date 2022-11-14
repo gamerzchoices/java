@@ -1,10 +1,10 @@
 /*String Functions in JAVA
  
-.length(): Length of a String
+.length(): Length of a String starts from 1 
 .toUpperCase(): Text uppercase
 .toLowerCase(): Text lowercase
 .concat(): Join two string
-.charAt(): Find character of String from index
+.charAt(): Find character of String from index starts from 0
 .substring(): Get a substring from a string
 .equals(): Check if two string are equal or not
 .replace(): Replace a string with another string
@@ -37,7 +37,7 @@ public class StringFunctions {
 
         // SUBSTRING
         System.out.println(capital.substring(3));
-        System.out.println(capital.substring(2, 9));
+        System.out.println(address.substring(5, 9));
 
         // EQUALS
         String tempValue = "Pepsicola";

@@ -12,8 +12,7 @@ public class FileRead {
             Scanner sc = new Scanner(f);
 
             while (sc.hasNextLine()) {
-                String read = sc.nextLine();
-                System.out.println(read);
+                System.out.println(sc.nextLine());
             }
         } catch (Exception ex) {
             System.out.println("Something went wrong.");

@@ -4,7 +4,8 @@ OBJECT ORIENTED PROGRAMMING (OOP) is the methodology to build real time applicat
 
 CLASS is the blueprint for creating Objects. 
 
-class{
+Syntax
+public class ClassName{
     //Properties - to store data
 
     //Methods - to perform operation
@@ -12,7 +13,8 @@ class{
 
 OBJECTS is the instance of the class and declared using keyword new
 
-Classname objectname = new Classname();
+ClassName objectName = new ClassName();
+ 
 
  */
 

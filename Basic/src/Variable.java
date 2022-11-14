@@ -1,10 +1,17 @@
 /*VARIABLES IN JAVA
 
+Data Types
 int --> Intergers
 float --> Decimal numbers ends with f
 double --> Advance float
 char --> Single character enclosed within ''
 String --> Words enclosed within ""
+Boolean --> Either true or false
+
+
+Syntax
+dataType variableName
+dataType variableName = value
 
 */
 public class Variable {

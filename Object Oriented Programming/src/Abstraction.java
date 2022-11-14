@@ -17,7 +17,7 @@ public class Abstraction {
 abstract class Book {
 
     // Abstract Method
-    public abstract void bookPages(); // It doesn't return anythinh
+    public abstract void bookPages(); // It doesn't return anything
 
 }
 

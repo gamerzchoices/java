@@ -1,7 +1,7 @@
 public class NoParameterAndReturnType {
     public static void main(String[] args) {
-        double simpleInterest = SI();
-        System.out.println(simpleInterest);
+        // double simpleInterest = SI();
+        System.out.println(SI());
     }
 
     public static double SI() {

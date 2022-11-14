@@ -7,9 +7,9 @@ public class FileMultipleCreate {
             createFiles("newFiles " + i + ".txt");
     }
 
-    public static void createFiles(String newFiles) {
+    public static void createFiles(String files) {
         try {
-            File f = new File(newFiles);
+            File f = new File(files);
 
             if (f.createNewFile()) {
                 System.out.println("File Created Successfully.");

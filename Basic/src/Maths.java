@@ -4,8 +4,8 @@ public class Maths {
 
     public static void main(String[] args) {
 
-        int num1 = 60;
-        int num2 = 43;
+        int num1 = 8;
+        int num2 = 4;
 
         int sum = num1 + num2;
         int diff = num1 - num2;
