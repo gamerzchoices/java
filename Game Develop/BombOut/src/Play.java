@@ -29,7 +29,7 @@ public class Play {
                                 "---------------------------" + ANSI_PURPLE_BACKGROUND + "Creator: Prabesh gupta"
                                                 + ANSI_RESET);
 
-                System.out.println("Choose Level \n1. Basic\n2. Normal\n3. Hard");
+                System.out.println("Choose Level \n1. Basic\n2. Normal\n3. Hard\n4. Extreme\n5. Heart Attack");
                 System.out.print("Enter number => ");
                 int choose = sc.nextInt();
 
@@ -41,6 +41,8 @@ public class Play {
                 Game g1 = new Game();
                 Game2 g2 = new Game2();
                 Game3 g3 = new Game3();
+                Game4 g4 = new Game4();
+                Game5 g5 = new Game5();
 
                 switch (choose) {
                         case 1:
@@ -54,6 +56,14 @@ public class Play {
                         case 3:
                                 g3.game3();
 
+                                break;
+
+                        case 4:
+                                g4.game4();
+                                break;
+
+                        case 5:
+                                g5.game5();
                                 break;
 
                         default:

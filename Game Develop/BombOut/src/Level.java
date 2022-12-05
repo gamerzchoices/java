@@ -15,7 +15,9 @@ public class Level implements Runnable {
             // Synchronized block
             synchronized (this) {
                 try {
-                    Thread.sleep(1999);
+
+                    // Set Timer sleep
+                    Thread.sleep(3000);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
